@@ -28,4 +28,4 @@ We study several negation-focused pre-training strategies and evaluate them in t
 
 Overall, our results suggest that targeted linguistic pre-training can improve neural retrieval models' sensitivity to negation without requiring additional inference-time computation.
 
-**[Code](https://github.com/mhrezaei1/csc583-nevir)**
+**[Full Report](https://drive.google.com/file/d/14XIz-pSOHZnyJ2oYLmwp9OVrmVHouUOH/view)** · **[Code](https://github.com/mhrezaei1/csc583-nevir)**
