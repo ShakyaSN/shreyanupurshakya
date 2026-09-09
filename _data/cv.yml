@@ -4,20 +4,27 @@ cv:
   email: snshakya2025@gmail.com
   location: ""
   image: ""
-  summary: Researcher interested in large language models, efficient and adaptive reasoning, AI agents, multilingual NLP, multimodal learning, and model evaluation.
+  summary: >
+    Computer Science graduate interested in large language models,
+    efficient and adaptive reasoning, AI agents, multilingual NLP,
+    multimodal learning, and model evaluation.
 
   social_networks:
     - network: GitHub
       username: ShakyaSN
+
     - network: LinkedIn
       username: shr3yans
 
   sections:
 
-    Research Interests:
+    Interests:
       - name: Research Interests
         icon: fa-solid fa-microscope
-        keywords: "LLM Reasoning and Evaluation, AI Agents, Efficient and Adaptive Reasoning, Multimodal Learning, Multilingual NLP"
+        keywords: >
+          LLM Reasoning and Evaluation, AI Agents,
+          Efficient and Adaptive Reasoning,
+          Multimodal Learning, Multilingual NLP
 
     Education:
       - institution: University of Arizona
@@ -36,9 +43,64 @@ cv:
         area: Computer Science and Engineering
         studyType: Bachelor of Technology
         end_date: 2021-05
-        score: "CGPA: 9.3/10"
+        score: "GPA: 4.0/4.0 | CGPA: 9.3/10"
         highlights:
           - "Rank: 2/~500"
+
+    Experience:
+      - company: University of Arizona
+        position: Research Contributor – Interpreting Indirect Answers to Yes-No Questions in Multiple Languages
+        location: Tucson, AZ
+        summary: "Advisor: Dr. Eduardo Blanco"
+        highlights:
+          - Contributed to research on multilingual pragmatic language understanding, focusing on how indirect answers to yes-no questions are interpreted across languages.
+          - Created and validated Nepali language data using native-language judgments of context-dependent answers.
+          - Supported evaluation of cross-lingual transfer across eight languages.
+          - Co-authored the resulting work published in Findings of EMNLP 2023.
+
+      - company: University of Arizona
+        position: Research Contributor – SexTok
+        location: Tucson, AZ
+        summary: "Advisor: Dr. Mihai Surdeanu"
+        highlights:
+          - Supported development of a 1,000-video multimodal dataset for distinguishing sex-educational, sexually suggestive, and other TikTok content.
+          - Annotated context-sensitive social-media content using visual and linguistic cues to support multimodal content classification.
+          - Recognized in the acknowledgements of the resulting Findings of ACL 2023 paper for data annotation contributions.
+
+      - company: University of Arizona
+        position: Graduate Research Assistant
+        location: Tucson, AZ
+        start_date: 2021
+        end_date: 2021
+        summary: "Advisor: Dr. Katherine E. Isaacs"
+        highlights:
+          - Explored visualization methods for understanding compiler optimization behavior through static and dynamic program analysis.
+          - Developed an interactive visualization system using Dyninst APIs and D3.js to expose code-optimization behavior and support analysis of program transformations.
+
+      - company: University of Arizona
+        position: Course Instructor, Department of Computer Science
+        location: Tucson, AZ
+        start_date: 2022
+        end_date: 2025
+        highlights:
+          - Independently led undergraduate courses in Software Development and Web Programming.
+          - Delivered lectures and hands-on instruction in programming, software engineering, and web technologies.
+          - Designed assignments, assessments, and grading rubrics; evaluated student performance and held office hours.
+          - "CSC 210 – Software Development: Summer 2025"
+          - "CSC 337 – Web Programming: Summer 2023, Summer 2022"
+
+      - company: University of Arizona
+        position: Graduate Teaching Assistant, Department of Computer Science
+        location: Tucson, AZ
+        start_date: 2022
+        end_date: 2025
+        highlights:
+          - Assisted instructors with course administration and assessment.
+          - Set up Gradescope and D2L, organized grading workflows, held office hours, and contributed to grading rubrics when needed.
+          - "CSC 337 – Web Programming: Fall 2025, Spring 2022"
+          - "CSC 346 – Cloud Computing: Spring 2025"
+          - "CSC 452 – Operating Systems: Fall 2023, Fall 2022"
+          - "CSC 483/583 – Text Retrieval and Web Search: Spring 2023"
 
     Publications:
       - title: Interpreting Indirect Answers to Yes-No Questions in Multiple Languages
@@ -80,7 +142,15 @@ cv:
         releaseDate: 2020
         url: https://ijournals.in/wp-content/uploads/2020/12/8.IJSHRE-81216-Shashikala.pdf
 
-    Selected Research Projects:
+    Projects:
+      - name: Adaptive Reasoning and Tool Routing from LLM Hidden States
+        summary: Predicting inference-time resource needs from pre-generation representations.
+        highlights:
+          - Studied whether hidden states can predict when additional reasoning or external tool access is needed before generation.
+          - Used Qwen3-1.7B and layer-wise linear probes to predict model-adaptive reasoning and tool necessity.
+          - Achieved peak AUROC of 0.881 for reasoning necessity and 0.963 for tool necessity.
+          - Evaluated selective routing policies for allocating Thinking and tool access under fixed resource budgets.
+
       - name: Minimal Chain-of-Thought Reasoning in Low-Resource Languages
         summary: LING 582 – Advanced Statistical Natural Language Processing, University of Arizona
         end_date: 2025
@@ -95,76 +165,42 @@ cv:
         end_date: 2025
         highlights:
           - Examined whether negation-specific further pre-training improves neural retrievers' sensitivity to semantic negation.
-          - Evaluated RoBERTa-large on NevIR under no-supervision and fine-tuning settings using several negation-focused pre-training methods.
+          - Evaluated RoBERTa-large on NevIR under no-supervision and fine-tuning settings.
+          - Compared negation-focused pre-training methods including NSP, NSPP, and commonsense-based objectives.
           - Achieved a NevIR score of 80.8 with NSP-pretrained RoBERTa-large after fine-tuning, outperforming the reported RankGPT o3-mini result by 3.5 points.
-          - Conducted error analysis to identify persistent failures in recognizing negation.
 
-    Research Experience:
-      - company: University of Arizona
-        position: Research Contributor – Interpreting Indirect Answers to Yes-No Questions in Multiple Languages
-        location: Tucson, AZ
-        summary: "Advisor: Dr. Eduardo Blanco"
+      - name: Interpreting Indirect Answers to Yes-No Questions in Multiple Languages
+        summary: Multilingual pragmatic language understanding research, University of Arizona
         highlights:
-          - Contributed to research on multilingual pragmatic language understanding, focusing on how indirect answers to yes-no questions are interpreted across languages.
-          - Created and validated Nepali language data using native-language judgments of context-dependent answers and supported evaluation of cross-lingual transfer across eight languages.
-          - Co-authored the resulting work published in Findings of EMNLP 2023.
+          - Studied how indirect answers to yes-no questions are interpreted across languages.
+          - Contributed to multilingual data collection, validation, and curation, including the Nepali benchmark.
+          - Supported evaluation of cross-lingual transfer across eight languages.
+          - Resulting work was published in Findings of EMNLP 2023.
 
-      - company: University of Arizona
-        position: Research Contributor – SexTok
-        location: Tucson, AZ
-        summary: "Advisor: Dr. Mihai Surdeanu"
+      - name: SexTok – Separating Sex Education from Suggestive Content on TikTok
+        summary: Multimodal social-media content moderation research, University of Arizona
         highlights:
-          - Supported development of a 1,000-video multimodal dataset for distinguishing sex-educational, sexually suggestive, and other TikTok content.
-          - Annotated context-sensitive social-media content using visual and linguistic cues to support multimodal content classification.
-          - Recognized in the acknowledgements of the resulting Findings of ACL 2023 paper for data annotation contributions.
+          - Contributed to dataset annotation for a 1,000-video multimodal TikTok dataset.
+          - Helped distinguish sex-educational, sexually suggestive, and other content using visual and linguistic context.
+          - Resulting research was published in Findings of ACL 2023.
 
-      - company: University of Arizona
-        position: Graduate Research Assistant
-        location: Tucson, AZ
-        start_date: 2021
-        end_date: 2021
-        summary: "Advisor: Dr. Katherine E. Isaacs"
-        highlights:
-          - Explored visualization methods for understanding compiler optimization behavior through static and dynamic program analysis.
-          - Developed an interactive visualization system using Dyninst APIs and D3.js to expose code-optimization behavior and support analysis of program transformations.
-
-    Teaching Experience:
-      - company: University of Arizona
-        position: Course Instructor, Department of Computer Science
-        location: Tucson, AZ
-        start_date: 2022
-        end_date: 2025
-        highlights:
-          - Independently led undergraduate courses in Software Development and Web Programming, delivering lectures and hands-on instruction in programming, software engineering, and web technologies.
-          - Designed assignments, assessments, and grading rubrics; evaluated student performance and held office hours.
-          - "CSC 210 – Software Development: Summer 2025"
-          - "CSC 337 – Web Programming: Summer 2023, Summer 2022"
-
-      - company: University of Arizona
-        position: Graduate Teaching Assistant, Department of Computer Science
-        location: Tucson, AZ
-        start_date: 2022
-        end_date: 2025
-        highlights:
-          - Assisted instructors with course administration and assessment, including setting up Gradescope and D2L, organizing grading workflows, holding office hours, and contributing to grading rubrics when needed.
-          - "CSC 337 – Web Programming: Fall 2025, Spring 2022"
-          - "CSC 346 – Cloud Computing: Spring 2025"
-          - "CSC 452 – Operating Systems: Fall 2023, Fall 2022"
-          - "CSC 483/583 – Text Retrieval and Web Search: Spring 2023"
-
-    Technical Skills:
+    Skills:
       - name: Programming
+        level: ""
         icon: fa-solid fa-code
         keywords: "Python, Java, C/C++, SQL, JavaScript"
 
       - name: ML/NLP Libraries
+        level: ""
         icon: fa-solid fa-brain
         keywords: "PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn"
 
-      - name: Tools/Platforms
+      - name: Tools and Platforms
+        level: ""
         icon: fa-solid fa-laptop-code
         keywords: "Git, Docker, Linux, Jupyter"
 
       - name: Databases
+        level: ""
         icon: fa-solid fa-database
         keywords: "PostgreSQL, MySQL, MongoDB"
