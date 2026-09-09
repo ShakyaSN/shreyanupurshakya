@@ -1,8 +1,10 @@
 ---
 layout: about
 title: about
+nav: true
+nav_order: 1
 permalink: /
-subtitle: <a href='https://www.linkedin.com/in/shr3yans/'>LinkedIn</a>
+subtitle: Efficient LLMs · Reasoning and Evaluation · Multilingual NLP · Agentic AI
 
 profile:
   align: right
