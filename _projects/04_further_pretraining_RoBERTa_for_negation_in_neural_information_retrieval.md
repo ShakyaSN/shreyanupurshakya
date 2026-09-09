@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Further Pre-training RoBERTa for Negation in Neural Information Retrieval
+title: Negation-Aware Neural Information Retrieval
 description: Improving neural information retrieval systems' understanding of negation through targeted pre-training.
 importance: 4
 category: research
 related_publications: false
 ---
+
+## Further Pre-training RoBERTa for Negation in Neural Information Retrieval
 
 Negation can substantially change the meaning of a sentence, yet neural information retrieval systems often struggle to account for it when ranking documents.
 
