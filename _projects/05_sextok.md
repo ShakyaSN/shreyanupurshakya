@@ -2,7 +2,7 @@
 layout: page
 title: SexTok — Separating Sex Education from Suggestive Content on TikTok
 description: Dataset annotation for multimodal social media content moderation research.
-importance: 4
+importance: 5
 category: research
 related_publications: false
 ---
