@@ -26,11 +26,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am interested in Natural Language Processing and Large Language Models, with a particular focus on multilingual and low-resource NLP, LLM reasoning and evaluation, trustworthy AI, and agentic language models.
+I am interested in Natural Language Processing and Large Language Models, with a particular focus on efficient LLMs, reasoning and evaluation, multilingual and low-resource NLP, trustworthy AI, and agentic AI.
 
-I completed my M.S. in Computer Science at the University of Arizona, where I also received a Graduate Certificate in Natural Language Processing.
+I completed my M.S. in [Computer Science](https://www.cs.arizona.edu/) at the [University of Arizona](https://www.arizona.edu/), where I also received a Graduate Certificate in [Natural Language Processing](https://linguistics.arizona.edu/graduate-certificate-natural-language-processing).
 
-My previous research includes multilingual language understanding, low-resource reasoning in English and Nepali, and evaluating the efficiency and behavior of large language models. I am particularly interested in understanding when and why language models succeed or fail, how their behavior varies across languages and settings, and how we can make them more reliable and efficient.
+My previous research includes multilingual language understanding, low-resource reasoning, and evaluating the efficiency and behavior of large language models. I am particularly interested in understanding when and why language models succeed or fail, how their behavior varies across languages and settings, and how we can make them more reliable and efficient.
 
-I am currently exploring research directions in LLM reasoning, tool use, and AI agents.
+
 
