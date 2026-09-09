@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://snshakya.github.io/shreyanupurshakya/sitemap.xml
+Sitemap: https://shakyasn.github.io/shreyanupurshakya/sitemap.xml
