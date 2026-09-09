@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-nav: true
+nav: false
 nav_order: 1
 permalink: /
 subtitle: Efficient LLMs · Reasoning and Evaluation · Multilingual NLP · Agentic AI
