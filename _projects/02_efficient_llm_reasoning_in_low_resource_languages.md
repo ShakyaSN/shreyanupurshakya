@@ -2,7 +2,7 @@
 layout: page
 title: Efficient LLM Reasoning in Low-Resource Languages
 description: Evaluating reasoning-efficiency tradeoffs in English and Nepali.
-importance: 1
+importance: 2
 category: research
 related_publications: false
 ---
