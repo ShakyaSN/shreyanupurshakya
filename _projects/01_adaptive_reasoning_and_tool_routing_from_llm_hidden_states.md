@@ -4,6 +4,7 @@ title: Adaptive Reasoning and Tool Routing from LLM Hidden States
 description: Predicting when LLMs need additional reasoning or external tools before generation.
 importance: 1
 category: research
+selected: true
 related_publications: false
 giscus_comments: false
 ---
