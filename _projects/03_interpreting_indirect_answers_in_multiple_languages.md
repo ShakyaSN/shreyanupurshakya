@@ -7,7 +7,7 @@ category: research
 related_publications: true
 ---
 
-##Interpreting Indirect Answers to Yes-No Questions in Multiple Languages
+### Interpreting Indirect Answers to Yes-No Questions in Multiple Languages
 
 People often answer yes-no questions indirectly rather than explicitly saying "yes" or "no." While humans can usually infer the intended meaning, this remains challenging for language understanding systems, particularly across languages.
 
