@@ -36,4 +36,9 @@ I completed my M.S. in [Computer Science](https://www.cs.arizona.edu/) at the [U
 My previous research includes multilingual language understanding, low-resource reasoning, and evaluating the efficiency and behavior of large language models. I am particularly interested in understanding when and why language models succeed or fail, how their behavior varies across languages and settings, and how we can make them more reliable and efficient.
 
 
+<style>
+.social .contact-icons {
+  font-size: 2.5rem;
+}
+</style>
 
