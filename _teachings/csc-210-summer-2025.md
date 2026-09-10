@@ -7,6 +7,7 @@ year: 2025
 term: Summer
 mode: Asynchronous Online
 course_id: csc-210-summer-2025
+importance: 1
 ---
 
 ## Course Overview
