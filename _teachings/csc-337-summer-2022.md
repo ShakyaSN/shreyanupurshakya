@@ -37,6 +37,6 @@ CSC 337 introduces students to the techniques and technologies used to develop d
 - Cookies and sessions
 - Web security vulnerabilities
 
-## Course Materials
+
 
 
