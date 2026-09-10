@@ -7,6 +7,7 @@ year: 2022
 term: Summer
 location: Gould-Simpson Building, Rm 906 | MoTuWe 6:00PM - 7:30PM
 course_id: csc-337-summer-2022
+importance: 3
 ---
 
 ## Course Overview
