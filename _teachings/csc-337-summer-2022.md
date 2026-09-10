@@ -10,6 +10,8 @@ course_id: csc-337-summer-2022
 importance: 3
 ---
 
+**[Syllabus — Summer 2022]({{ '/assets/pdf/CSC_337_Syllabus_Summer_2022.pdf' | relative_url }})**
+
 ## Course Overview
 
 CSC 337 introduces students to the techniques and technologies used to develop dynamic websites and full-stack web applications.
@@ -37,4 +39,4 @@ CSC 337 introduces students to the techniques and technologies used to develop d
 
 ## Course Materials
 
-**[Syllabus — Summer 2022]({{ '/assets/pdf/CSC_337_Syllabus_Summer_2022.pdf' | relative_url }})**
+
