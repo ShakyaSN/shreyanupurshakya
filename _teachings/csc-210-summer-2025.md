@@ -41,6 +41,5 @@ CSC 210 introduces students to the development of larger software systems and th
 - Code refactoring
 - Java vs. Python
 
-## Course Materials
 
 
