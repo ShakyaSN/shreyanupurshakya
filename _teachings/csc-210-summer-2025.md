@@ -10,6 +10,8 @@ course_id: csc-210-summer-2025
 importance: 1
 ---
 
+**[Syllabus — Summer 2025]({{ '/assets/pdf/CSC_210_Syllabus_Summer_2025.pdf' | relative_url }})**
+
 ## Course Overview
 
 CSC 210 introduces students to the development of larger software systems and the tools and practices used to design, implement, test, and maintain software.
@@ -41,4 +43,4 @@ CSC 210 introduces students to the development of larger software systems and th
 
 ## Course Materials
 
-**[Syllabus — Summer 2025]({{ '/assets/pdf/CSC_210_Syllabus_Summer_2025.pdf' | relative_url }})**
+
