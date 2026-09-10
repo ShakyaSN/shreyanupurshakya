@@ -4,7 +4,8 @@ title: Multilingual Indirect Answer Interpretation
 description: Multilingual NLP for understanding indirect answers to yes-no questions.
 importance: 3
 category: research
-related_publications: true
+selected: true
+related_publications: false
 ---
 
 ### Interpreting Indirect Answers to Yes-No Questions in Multiple Languages
