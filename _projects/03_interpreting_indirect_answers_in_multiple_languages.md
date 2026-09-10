@@ -21,10 +21,6 @@ We develop multilingual benchmarks covering **eight languages** and investigate 
 - Cross-lingual transfer is particularly useful when limited training data is available in the target language.
 - The results demonstrate both the potential and limitations of multilingual models for pragmatic language understanding.
 
-### My Contribution
-
-I contributed to **multilingual data collection, validation, and curation**, including work on the **Nepali** portion of the dataset.
-
 This work was published in **Findings of EMNLP 2023**.
 
 **[Paper](https://aclanthology.org/2023.findings-emnlp.146/)** · **[PDF](https://aclanthology.org/2023.findings-emnlp.146.pdf)** · **[Code & Data](https://github.com/wang-zijie/yn-question-multilingual)**
