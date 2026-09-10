@@ -4,7 +4,7 @@ title: about
 nav: false
 nav_order: 1
 permalink: /
-subtitle: Efficient LLMs · Reasoning and Evaluation · Multilingual NLP · Agentic AI
+subtitle: 
 
 profile:
   align: right
@@ -14,12 +14,9 @@ profile:
     <p>M.S. in Computer Science</p>
     <p>University of Arizona</p>
 
-selected_papers: true # includes a list of papers marked as "c"
+selected_papers: false # includes a list of papers marked as "c"
 social: true # includes social icons at the bottom of the page
 
-selected_projects:
-  enabled: true
-  limit: 3
   
 announcements:
   enabled: false # includes a list of news items
