@@ -7,6 +7,7 @@ year: 2023
 term: Summer
 mode: Asynchronous Online
 course_id: csc-337-summer-2023
+importance: 2
 ---
 
 ## Course Overview
