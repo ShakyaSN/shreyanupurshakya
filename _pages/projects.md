@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected research and technical projects.
+description: Selected Research and Software projects.
 nav: true
 nav_order: 3
 display_categories: [research, software, other]
