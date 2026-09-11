@@ -1,8 +1,8 @@
 ---
 layout: page
 title: CoolViz
-description: Interactive visualization of data-center workloads and temperature hotspots.
-img: /assets/img/coolviz/coolviz-overview.png
+description: Interactive data-center visualization for identifying hotspots and evaluating workload-placement strategies.
+img:
 importance: 1
 category: software
 selected: false
@@ -10,70 +10,69 @@ related_publications: false
 giscus_comments: false
 ---
 
-**CoolViz** is an interactive visualization system for exploring temperature hotspots in simulated data-center environments.
+## Overview
 
-Data-center hotspots can contribute to degraded performance, outages, and equipment damage. CoolViz was designed to make hotspot behavior easier to understand and support timely decisions about workload placement and cooling.
+**CoolViz** is an interactive visualization system designed to help users understand how workloads affect temperature hotspots across a simulated data center.
+
+The project started with a practical problem: data-center hotspots can contribute to degraded performance, outages, and equipment damage, while existing visualizations may not provide the temporal and workload context needed to understand how hotspots develop.
+
+Our goal was to make this information easier to interpret and support more proactive decisions around workload placement and hotspot prevention.
 
 Developed as a team project for **CSC 552: Advanced Operating Systems** at the **University of Arizona**.
 
+## Problem
+
+Data-center operators need to understand not only **where** hotspots occur, but also how temperature changes over time and how workload placement contributes to those changes.
+
+We focused the project around three needs:
+
+- Make hotspot behavior easy to identify visually
+- Connect temperature information with workload and infrastructure context
+- Support comparison of workload-placement strategies
+
+## Product Approach
+
+We designed CoolViz around progressively more detailed views so users could move from a high-level data-center view to individual server behavior.
+
+The interface provides:
+
+- **Data-center view** — shows the physical rack layout and average rack temperatures
+- **Rack view** — shows servers within a selected rack and their temperatures
+- **Server view** — shows the temperature of an individual server over time
+- **Workload movement log** — shows transfers of jobs between racks
+- **Time controls** — allow users to inspect how conditions change over time
+
+This hierarchy was intended to keep the visualization understandable while still allowing deeper investigation when needed.
+
 ## System Design
 
-We simulated a data center receiving web requests as workload and distributing those requests across racks and servers. Server temperatures were estimated based on workload, power consumption, server position, and incoming cooling conditions.
+We simulated a data center receiving web requests and distributing them across racks and servers.
 
-The simulated environment included:
+The environment included:
 
-- **28 racks** arranged across four rows
+- **28 racks**
 - **10 servers per rack**
 - **24 hours of workload data**
 - Heavy, medium, and light web requests
+- Temperature estimation based on workload and server characteristics
 - Workload reassignment to simulate hotspot mitigation
 
-## Interactive Visualization
+We generated both normal and modified workload assignments so that the interface could be used to compare alternative operating strategies.
 
-CoolViz provides multiple levels of visualization for examining temperature behavior across the simulated data center.
+## Evaluation
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/coolviz/rack-room.png" title="Data center rack visualization" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/coolviz/server-temperature.png" title="Server temperature visualization" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+We used CoolViz to compare temperature behavior under different workload-placement strategies.
 
-<div class="caption">
-CoolViz visualizes temperature at multiple levels, from the data-center rack layout to individual server behavior over time.
-</div>
+The system supported analysis of:
 
-The interface includes:
+- Temperature changes over time
+- Hotspot locations
+- Distribution of the hottest servers
+- Frequency with which the hottest server changed
+- Differences between normal and modified workload assignments
 
-- **Data-center view** — rack layout and average rack temperatures
-- **Rack view** — individual servers and their average temperatures
-- **Server view** — temporal temperature behavior for a selected server
-- **Workload movement log** — transfers of jobs between racks
-- **Time controls** — stepping through temperature changes over time
+## Product Takeaways
 
-## Comparing Workload Strategies
+CoolViz reinforced the importance of designing technical systems around the decisions users need to make rather than simply exposing all available data.
 
-We compared normal workload assignment with modified workload placement designed to reduce hotspots.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/coolviz/comparison.png" title="Comparison of workload placement strategies" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-Comparison of temperature behavior under different workload-placement strategies.
-</div>
-
-The visualization supports analysis of:
-
-- Temperature behavior across workload-placement strategies
-- Changes in the hottest server over time
-- Distribution of hotspot locations
-- Temporal temperature patterns
-
-## Outcome
-
-CoolViz demonstrates how workload, infrastructure structure, and temporal temperature data can be combined in an interactive interface to make data-center hotspot behavior easier to analyze.
+The project combined **systems thinking, data visualization, simulation, feature design, and iterative evaluation** to turn complex infrastructure data into a more interpretable user experience.
