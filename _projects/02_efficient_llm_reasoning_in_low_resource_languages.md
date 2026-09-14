@@ -8,6 +8,8 @@ selected: true
 related_publications: false
 ---
 
+**[Full Project Report](https://uazhlt-ms-program.github.io/ling-582-fall-2025-course-blog/snshakya/course-project/)** · **[Code](https://github.com/uazhlt-ms-program/ling-582-fall-2025-course-project-code-shreya-vovwe)**
+
 This project investigates how much reasoning is actually necessary for large language models to solve tasks effectively, particularly in low-resource language settings.
 
 We compare three prompting strategies:
@@ -31,4 +33,4 @@ Our results show that Minimal-CoT can remain competitive with Standard-CoT while
 
 This project contributes to our broader goal of understanding how language models can reason more efficiently and reliably, particularly in low-resource settings.
 
-**[Full Project Report](https://uazhlt-ms-program.github.io/ling-582-fall-2025-course-blog/snshakya/course-project/)** · **[Code](https://github.com/uazhlt-ms-program/ling-582-fall-2025-course-project-code-shreya-vovwe)**
+
