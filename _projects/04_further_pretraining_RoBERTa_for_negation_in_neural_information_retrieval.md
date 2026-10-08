@@ -10,6 +10,8 @@ related_publications: false
 
 ## Further Pre-training RoBERTa for Negation in Neural Information Retrieval
 
+**[Full Report](https://drive.google.com/file/d/14XIz-pSOHZnyJ2oYLmwp9OVrmVHouUOH/view)** · **[Code](https://github.com/mhrezaei1/csc583-nevir)**
+
 Negation can substantially change the meaning of a sentence, yet neural information retrieval systems often struggle to account for it when ranking documents.
 
 In this project, we investigate whether **targeted further pre-training** can improve RoBERTa's ability to handle negation in neural information retrieval.
@@ -31,4 +33,4 @@ We study several negation-focused pre-training strategies and evaluate them in t
 
 Overall, our results suggest that targeted linguistic pre-training can improve neural retrieval models' sensitivity to negation without requiring additional inference-time computation.
 
-**[Full Report](https://drive.google.com/file/d/14XIz-pSOHZnyJ2oYLmwp9OVrmVHouUOH/view)** · **[Code](https://github.com/mhrezaei1/csc583-nevir)**
+
