@@ -8,7 +8,7 @@ selected: true
 related_publications: false
 giscus_comments: false
 ---
-**[Project Report]({{ '/assets/pdf/REPORT_Predicting_Resource_Necessity_from_Internal_Representations_in_LLMs.pdf' | relative_url }})**
+**[Project Report](https://shakyasn.github.io/shreyanupurshakya/assets/pdf/REPORT_Predicting_Resource_Necessity_from_Internal_Representations_in_LLMs.pdf)**
 Large language models can allocate additional inference-time resources through extended reasoning or external tools. However, different prompts may require different amounts or types of resources.
 
 In this project, I investigate whether an LLM's internal representations can predict **before generation** whether a prompt will require additional reasoning computation or external tool access.
