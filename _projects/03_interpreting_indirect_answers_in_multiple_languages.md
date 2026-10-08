@@ -10,6 +10,8 @@ related_publications: false
 
 ### Interpreting Indirect Answers to Yes-No Questions in Multiple Languages
 
+**[Paper](https://aclanthology.org/2023.findings-emnlp.146/)** · **[PDF](https://aclanthology.org/2023.findings-emnlp.146.pdf)** · **[Code & Data](https://github.com/wang-zijie/yn-question-multilingual)**
+
 People often answer yes-no questions indirectly rather than explicitly saying "yes" or "no." While humans can usually infer the intended meaning, this remains challenging for language understanding systems, particularly across languages.
 
 In this work, we study the interpretation of indirect answers to yes-no questions across multiple languages.
@@ -24,4 +26,4 @@ We develop multilingual benchmarks covering **eight languages** and investigate 
 
 This work was published in **Findings of EMNLP 2023**.
 
-**[Paper](https://aclanthology.org/2023.findings-emnlp.146/)** · **[PDF](https://aclanthology.org/2023.findings-emnlp.146.pdf)** · **[Code & Data](https://github.com/wang-zijie/yn-question-multilingual)**
+
